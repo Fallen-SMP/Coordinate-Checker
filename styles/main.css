@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(192, 192, 192);
+}
+
+#container {
+    background-color: white;
+    width: 60%;
+    margin: 7em auto;
+    padding-bottom: 3em;
+}
+
+#container>h1 {
+    padding-top: 2.5em;
+}
+
+
+#navig {
+    width: 100%;
+
+}
+
+
+.navdiv {
+    padding: 0.7em 0;
+    width: 50%;
+    float: left;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.navdiv:hover {
+    cursor: pointer;
+    background-color: rgb(221, 244, 250);
+}
+
+#over {
+    border-bottom: 2px solid rgb(50, 156, 255);
+}
+
+
+
+/* Below the navbar */
+
+#heading {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+#coords {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.coord {
+    margin: 2em 0;
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#eks, #zet {
+    font-size: 0.8em;
+}
+
+/* Below the coordinate input fields */
+
+#check {
+    display: block;
+    margin: 2em auto;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    background-color: white;
+    border: 2px solid #008CBA;
+    outline: none;
+}
+
+#check:hover {
+    cursor: pointer;
+}
+
+#check:active {
+    border-color: black;
+    color: #008CBA;
+}
+
+
+#bases {
+    width: 80%;
+    margin: 2em 0;
+}
