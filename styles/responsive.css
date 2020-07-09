@@ -1,0 +1,148 @@
+@media (max-width: 1650px) {
+    #container {
+        width: 65%;
+    }
+
+    #eks, #zet {
+        width: 70%;
+    }
+}
+
+
+@media (max-width: 1350px) {
+    #container {
+        top: 30%;
+        transform: translateY(-30%);
+        height: 80%;
+    }
+
+    #logo {
+        width: 200px;
+    }
+
+
+    #heading {
+        font-size: 2.2em;
+    }
+
+    .navdiv {
+        padding: 0.7em 0;
+        font-size: 0.8em;
+    }
+
+    .coord {
+        font-size: 2em;
+    }
+
+
+    #positiveQuote {
+        font-size: 1.5em;
+    
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .navdiv {
+        font-size: 0.7em;
+    }
+
+    #heading {
+        padding-top: 2em;
+        font-size: 2em;
+    }
+
+    #logo {
+        width: 145px;
+        bottom: -67px;
+        right: -19px;
+    }
+
+    .coord {
+        margin: 1em 0;
+    }
+
+    #check {
+        margin-right: 3%;
+    }
+
+    #baseholder>h1 {
+        font-size: 1.6em;
+    }
+
+    .bases>h2 {
+        font-size: 0.7em;
+    }
+
+    .bases>p {
+        font-size: 0.7em;
+    }
+
+    #positiveQuote {
+        font-size: 1em;
+    
+    }
+
+    #quoteAuthor {
+        font-size: 0.7em;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    #container {
+        transform: translateY(-30%);
+        height: 65%;
+        width: 80%;
+    }
+
+    .navdiv {
+        font-size: 0.35em;
+    }
+
+    #logo {
+        width: 100px;
+        bottom: -45px;
+        right: -10px;
+    }
+
+    #heading {
+        font-size: 1.1em;
+        padding-bottom: 0.5em;
+    }
+
+    .coord {
+        width: 100%;
+        margin: 0.3em auto;
+        font-size: 1.2em;
+    }
+
+    #check {
+        font-size: 1em;
+        margin-top: 0.8em;
+    }
+
+    #baseholder>h1 {
+        font-size: 1em;
+    }
+
+    .bases>h2, .bases>p {
+        font-size: 0.5em;
+    }
+
+
+
+    #positiveQuote {
+        font-size: 0.7em;
+ 
+        width: 80%;
+    }
+
+    #quoteAuthor {
+        font-size: 0.3em;
+    }
+}
+

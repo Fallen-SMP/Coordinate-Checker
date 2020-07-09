@@ -4,10 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/responsive.css"> 
     <script src="./scripts/main.js"></script>
 </head>
 <body>
-    
+    <img src="./src/fallenText.png" id="logo">
     <div id="container">
         <div id="navig"> <!-- Navigator -->
             <div class="navDiv" id="over">
@@ -25,17 +26,19 @@
         <div id="coords"> <!-- Coordinate divs -->
             <div class="coord">
                 <label>X:
-                    <input placeholder="Enter your X coordinate" name="eks" id="eks"/>
+                    <input name="eks" id="eks"/>
                 </label>
             </div>
             <div class="coord">
                 <label>Z:
-                    <input placeholder="Enter your Z coordinate" name="zet" id="zet" />
+                    <input name="zet" id="zet" />
                 </label>
             </div>
         </div>
 
-        <button id="check">Validate</button>
+        <button id="check">Check</button>
+
+   
     </div>
 
 </body>

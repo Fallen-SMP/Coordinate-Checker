@@ -12,7 +12,11 @@ body {
 }
 
 
-
+#logo {
+    position: fixed;
+    bottom: -90px;
+    right: -25px;
+}
 
 #container {
     background-color: white;
@@ -20,20 +24,17 @@ body {
     position: relative;
     top: 20%;
     transform: translateY(-20%);
-    height: 60%;
+    height: 90%;
+    max-height: 800px;
     margin: 2em auto;
-    padding-bottom: 3em;
-    overflow: scroll;
+    overflow-y: scroll;
 }
-
-#container>h1 {
-    padding-top: 2.5em;
-}
-
 
 #navig {
     width: 100%;
-
+    position: fixed;
+    z-index: 1;
+    top: 0;
 }
 
 
@@ -60,6 +61,7 @@ body {
 
 #heading {
     text-align: center;
+    padding-top: 2.5em;
     font-size: 2.5em;
 }
 
@@ -81,12 +83,18 @@ body {
     font-size: 0.8em;
 }
 
+
+#eks:focus, #zet:focus {
+    background-color: rgb(211, 211, 211);
+}
+
 /* Below the coordinate input fields */
 
 #check {
     display: block;
     font-size: 1.5em;
     padding: 0.5em 1em;
+    margin-bottom: 1em;
     background-color: white;
     border: 2px solid #008CBA;
     outline: none;
@@ -114,15 +122,42 @@ body {
 
 
 .bases {
-    padding-left: 5%;
-    width: 80%;
-    margin: 3em 0;
+    padding: 0 5%;
+    width: 100%;
+    margin: 2em 0;
 }
 
-.bases>h2 {
+.bases>h2, .bases>p {
     font-size: 1em;
 }
 
-.bases>p {
+
+#positiveQuote {
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 10% 0 0.5em 0;
+    text-align: center;
+    width: 70%;
+    font-size: 2em;
+
+    animation-name: load;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#quoteAuthor {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
     font-size: 1em;
+    padding: 0 1em;
+
+    animation-name: load;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes load {
+    from {opacity: 0;}
+    to   {opacity: 1;}
 }

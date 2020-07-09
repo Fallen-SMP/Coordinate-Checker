@@ -351,6 +351,12 @@ let userData = {
         Y: -170,
         desc: "Don't mine or build"
     },
+    claim58: {
+        username: "GoldReaper97",
+        X: 1808,
+        Y: -612,
+        desc: "Don't mine or build"
+    },
   
 };
 
@@ -394,15 +400,74 @@ function minecraftCoords(claim, enemyClaim) {
 }
 
 
+let positiveQuotes = [
+    ["Once you choose hope, anything is possible.", "Christopher Reeve"],
+    ["Maybe you have to know the darkness before you can appreciate the light.", "Madeleine L'Engle"],
+    ["There are far, far better things ahead than anything we leave behind.", "C.S. Lewis"],
+    ["Those who have a ‘why’ to live, can bear with almost any ‘how’.", "Viktor E. Frankl"],
+    ["Even if happiness forgets you a little bit, never completely forget about it.", "Jacques Prevert"]
+]
+
 
 /*
 
 FUNCTIONING SECTION - CALCULATE/DISPLAY
 
 */
+
+window.addEventListener("load", quoteLoad)
+
+
+/**
+ * @description - On loading the page fill the white space (where bases will go)
+ * with a random quote until the clients try getting coordinates
+ * 
+ */
+
+function quoteLoad() {
+    let container = document.getElementById("container");
+    let quoteHolder = document.createElement("div");
+    let quote = document.createElement("p");
+    let author = document.createElement("p");
+    let [quoteText, authorText] = positiveQuotes[Math.floor(Math.random() * positiveQuotes.length)];
+
+    quoteHolder.id = "baseHolder";
+    quote.id = "positiveQuote";
+    author.id = "quoteAuthor";
+    quote.textContent = `"${quoteText}"`;
+    author.textContent = "- " + authorText;
+
+    quoteHolder.append(quote);
+    quoteHolder.append(author);
+    container.append(quoteHolder);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let btn;
 
-setTimeout(() => {
+setTimeout(() => { // Set an event listener on the button
     btn = document.getElementById("check");
     btn.addEventListener("click", display);
 }, 1000);
