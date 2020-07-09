@@ -3,15 +3,27 @@
     box-sizing: border-box;
 }
 
+/* background-color: rgb(192, 192, 192); */
 body {
-    background-color: rgb(192, 192, 192);
+    background: linear-gradient(to bottom, rgb(12, 66, 7), black);
+    background: url("../src/background.jpg") fixed no-repeat center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+
 
 #container {
     background-color: white;
     width: 60%;
-    margin: 7em auto;
+    position: relative;
+    top: 20%;
+    transform: translateY(-20%);
+    height: 60%;
+    margin: 2em auto;
     padding-bottom: 3em;
+    overflow: scroll;
 }
 
 #container>h1 {
@@ -73,12 +85,13 @@ body {
 
 #check {
     display: block;
-    margin: 2em auto;
     font-size: 1.5em;
     padding: 0.5em 1em;
     background-color: white;
     border: 2px solid #008CBA;
     outline: none;
+    margin-right: 5%;
+    float: right;
 }
 
 #check:hover {
@@ -90,8 +103,26 @@ body {
     color: #008CBA;
 }
 
+#baseholder {
+    clear: both;
+}
 
-#bases {
+#baseholder>h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+.bases {
+    padding-left: 5%;
     width: 80%;
-    margin: 2em 0;
+    margin: 3em 0;
+}
+
+.bases>h2 {
+    font-size: 1em;
+}
+
+.bases>p {
+    font-size: 1em;
 }
