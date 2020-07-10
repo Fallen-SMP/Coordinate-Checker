@@ -362,11 +362,23 @@ let userData = {
         Y: -1190,
         desc: "Don't mine or build"
     },
-    claim58: {
+    claim61: {
         username: "Foolnidiot",
         X: -2155,
         Y: -5542,
         desc: "Don't mine or build"
+    },
+    claim62: {
+        username: "ShadowBlazinIce",
+        X: 1918,
+        Y: -2031,
+        desc: "Can build above"
+    },
+    claim63: {
+        username: "HammyDaGR8",
+        X: -1984,
+        Y: 1698,
+        desc: "Ask before building"
     },
   
 };
