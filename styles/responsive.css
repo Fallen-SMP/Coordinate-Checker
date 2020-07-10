@@ -88,6 +88,10 @@
         font-size: 0.7em;
     }
 
+    #warning {
+        font-size: 0.45em;
+    }
+
 }
 
 
@@ -143,6 +147,10 @@
 
     #quoteAuthor {
         font-size: 0.3em;
+    }
+
+    #warning {
+        font-size: 0.35em;
     }
 }
 

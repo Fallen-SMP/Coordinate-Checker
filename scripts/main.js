@@ -21,7 +21,7 @@ function minecraftCoords(claim, enemyClaim) {
     
     if (Z < 0 && eZ < 0 || Z > 0 && eZ > 0) {
         mainZ = Math.abs(Math.abs(Z) - Math.abs(eZ))
-    } else if (Z < 0 && eY > 0) {
+    } else if (Z < 0 && eZ > 0) {
         mainZ = eZ + Math.abs(Z)
     } else if (Z > 0 && eZ < 0) {
         mainZ = Z + Math.abs(eZ)
@@ -38,7 +38,12 @@ let positiveQuotes = [
     ["Maybe you have to know the darkness before you can appreciate the light.", "Madeleine L'Engle"],
     ["There are far, far better things ahead than anything we leave behind.", "C.S. Lewis"],
     ["Those who have a ‘why’ to live, can bear with almost any ‘how’.", "Viktor E. Frankl"],
-    ["Even if happiness forgets you a little bit, never completely forget about it.", "Jacques Prevert"]
+    ["Even if happiness forgets you a little bit, never completely forget about it.", "Jacques Prevert"],
+    ["The Way Get Started Is To Quit Talking And Begin Doing.", "Walt Disney"],
+    ["Don’t Let Yesterday Take Up Too Much Of Today.", "Will Rogers"],
+    ["We May Encounter Many Defeats But We Must Not Be Defeated.", "Maya Angelou"],
+    ["Do What You Can With All You Have, Wherever You Are.", "Theodore Roosevelt"],
+    ["Reading Is To The Mind, As Exercise Is To The Body.", "Brian Tracy"]
 ]
 
 
@@ -100,13 +105,13 @@ setTimeout(() => { // Set an event listener on the button
 
 
 function display(claimCheck) {
-    let xCoord = document.getElementById("eks").value;
-    let zCoord = document.getElementById("zet").value;
+    let xCoord = document.getElementById("eks");
+    let zCoord = document.getElementById("zet");
     let container = document.getElementById("container");
     let claims;
 
 
-    if(isInvalid(xCoord, zCoord)) return warn();
+    if(isInvalid(xCoord.value, zCoord.value)) return warn();
    
    
     if (claimCheck === "overworld") {
@@ -115,8 +120,6 @@ function display(claimCheck) {
         claims = netherBases;
     }
 
-  
-
     if (document.getElementById("baseHolder") !== null) {
         document.getElementById("baseHolder").remove()
     }
@@ -124,11 +127,11 @@ function display(claimCheck) {
  
     // Calculate the difference and then sort it by closest
     let difference = claims.map((element) => {
-        let remainingCoords = minecraftCoords([Number.parseInt(xCoord), Number.parseInt(zCoord)], [element[0], element[1]])
+        let remainingCoords = minecraftCoords([Number.parseInt(xCoord.value), Number.parseInt(zCoord.value)], [element[0], element[1]])
 
         return [...element, remainingCoords.reduce((total, element) => total + element , 0)]
     }).sort((a, b) => a[4] - b[4]).slice(0, 5)
-        
+    console.log(difference)
 
 
     let topfive = document.createElement("div");
@@ -155,6 +158,8 @@ function display(claimCheck) {
         topfive.append(claimContainer)
     }
   container.append(topfive)
+
+
 }
 
 /** 
