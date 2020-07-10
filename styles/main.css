@@ -3,10 +3,21 @@
     box-sizing: border-box;
 }
 
-/* background-color: rgb(192, 192, 192); */
 body {
+    overflow: hidden;
+}
+
+/* background-color: rgb(192, 192, 192); */
+#background {
     background: linear-gradient(to bottom, rgb(12, 66, 7), black);
     background: url("../src/background.jpg") fixed no-repeat center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#backgroundNether {
+    background: linear-gradient(to bottom, rgb(12, 66, 7), black);
+    background: url("../src/nether.jpg") fixed no-repeat center;
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -51,9 +62,10 @@ body {
     background-color: rgb(221, 244, 250);
 }
 
-#over {
+.highlighted {
     border-bottom: 2px solid rgb(50, 156, 255);
 }
+
 
 
 
@@ -72,7 +84,7 @@ body {
 }
 
 .coord {
-    margin: 2em 0;
+    margin: 2em 0 1em 0;
     width: 50%;
     float: left;
     text-align: center;
@@ -116,8 +128,9 @@ body {
 }
 
 #baseholder>h1 {
+    padding-top: 1em;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 
@@ -128,7 +141,7 @@ body {
 }
 
 .bases>h2, .bases>p {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 
@@ -157,7 +170,36 @@ body {
     animation-fill-mode: forwards;
 }
 
+
+#warning {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    font-size: 0.5em;
+    transform: translateX(-50%);
+    background-color: rgb(226, 72, 72);
+    border: 2px solid red;
+    border-radius: 30px;
+    opacity: 0;
+    bottom: -100px;
+    text-align: center;
+
+    animation-name: warn;
+    animation-duration: 3s;
+}
+
+#warning>p {
+    padding: 2em;
+    font-size: 2em;
+}
+
 @keyframes load {
     from {opacity: 0;}
     to   {opacity: 1;}
+}
+
+@keyframes warn {
+    20% {opacity: 1; bottom: 30px;}
+    80% {opacity: 1; bottom: 30px;}
+    100% {opacity: 0; bottom: 30px;}
 }
