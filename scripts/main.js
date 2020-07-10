@@ -11,7 +11,7 @@ function minecraftCoords(claim, enemyClaim) {
     let mainX;
     let mainZ;
 
-    if (eX === 0 && eZ === 0) return [X, Z];
+    if (eX === 0 && eZ === 0) return [Math.abs(X), Math.abs(Z)];
     
     
     if (X <= 0 && eX <= 0 || X >= 0 && eX >= 0) {
