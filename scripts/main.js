@@ -10,20 +10,23 @@ function minecraftCoords(claim, enemyClaim) {
     let [eX, eZ] = enemyClaim
     let mainX;
     let mainZ;
+
+    if (eX === 0 && eZ === 0) return [X, Z];
     
-    if (X < 0 && eX < 0 || X > 0 && eX > 0) {
+    
+    if (X <= 0 && eX <= 0 || X >= 0 && eX >= 0) {
         mainX = Math.abs(Math.abs(X) - Math.abs(eX))
-    } else if (X < 0 && eX > 0) {
+    } else if (X <= 0 && eX >= 0) {
         mainX = eX + Math.abs(X)
-    } else if (X > 0 && eX < 0) {
+    } else if (X >= 0 && eX <= 0) {
         mainX = X + Math.abs(eX)
     }
     
-    if (Z < 0 && eZ < 0 || Z > 0 && eZ > 0) {
+    if (Z <= 0 && eZ <= 0 || Z >= 0 && eZ >= 0) {
         mainZ = Math.abs(Math.abs(Z) - Math.abs(eZ))
-    } else if (Z < 0 && eZ > 0) {
+    } else if (Z <= 0 && eZ >= 0) {
         mainZ = eZ + Math.abs(Z)
-    } else if (Z > 0 && eZ < 0) {
+    } else if (Z >= 0 && eZ <= 0) {
         mainZ = Z + Math.abs(eZ)
     }
     
@@ -127,11 +130,12 @@ function display(claimCheck) {
  
     // Calculate the difference and then sort it by closest
     let difference = claims.map((element) => {
+        if (element[1] === undefined) element[1] = 0;
         let remainingCoords = minecraftCoords([Number.parseInt(xCoord.value), Number.parseInt(zCoord.value)], [element[0], element[1]])
-
+    
         return [...element, remainingCoords.reduce((total, element) => total + element , 0)]
     }).sort((a, b) => a[4] - b[4]).slice(0, 5)
-    console.log(difference)
+
 
 
     let topfive = document.createElement("div");

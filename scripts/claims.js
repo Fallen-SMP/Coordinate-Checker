@@ -2,6 +2,12 @@ let bases = [];
 let netherBases = [];
 
 let userData = {
+    claimMain: {
+        username: "Spawn",
+        X: 0,
+        Z: 0,
+        desc: "300x300 spawn claim"
+    },
      claim1: {
         username: "Fallen Valley",
         X: 715,
@@ -367,6 +373,12 @@ let userData = {
 
 
 let userNetherData = {
+    claim60: {
+        username: "Spawn",
+        X: 0,
+        Z: 0,
+        desc: "150x150 spawn claim"
+    },
     claim1: {
         username: "JC_C",
         X: 574,
@@ -410,6 +422,8 @@ for (user in userData) {
 for (user in userNetherData) {
     netherBases.push([userNetherData[user].X, userNetherData[user].Y, userNetherData[user].username, userNetherData[user].desc])
 }
+
+console.log(netherBases)
 
 
 
