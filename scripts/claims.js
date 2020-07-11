@@ -386,6 +386,12 @@ let userData = {
         Y: -5008,
         desc: "Don't mine or build"
     },
+    claim65: {
+        username: "Grenaderboy909",
+        X: 3293,
+        Y: -3400,
+        desc: "Don't mine or build"
+    },
   
 };
 
