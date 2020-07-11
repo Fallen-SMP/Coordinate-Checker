@@ -380,6 +380,12 @@ let userData = {
         Y: 1698,
         desc: "Ask before building"
     },
+    claim64: {
+        username: "senp41",
+        X: -1794,
+        Y: -5008,
+        desc: "Ask before building"
+    },
   
 };
 
