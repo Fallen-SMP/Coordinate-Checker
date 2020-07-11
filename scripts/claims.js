@@ -384,7 +384,7 @@ let userData = {
         username: "senp41",
         X: -1794,
         Y: -5008,
-        desc: "Ask before building"
+        desc: "Don't mine or build"
     },
   
 };
