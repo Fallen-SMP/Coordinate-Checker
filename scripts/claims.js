@@ -316,8 +316,8 @@ let userData = {
     },
     claim52: {
         username: "flame_bomb",
-        X: -1390,
-        Y: -5530,
+        X: -1280,
+        Y: -5250,
         desc: "Don't mine or build"
     },
     claim53: {
@@ -390,6 +390,12 @@ let userData = {
         username: "Grenaderboy909",
         X: 3293,
         Y: -3400,
+        desc: "Don't mine or build"
+    },
+    claim66: {
+        username: "Jonothepanda",
+        X: -1000,
+        Y: 1800,
         desc: "Don't mine or build"
     },
   
