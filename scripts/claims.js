@@ -336,7 +336,7 @@ let userData = {
         username: "AustiinGamez",
         X: 742,
         Y: -286,
-        desc: "Allowed to build"
+        desc: "Allowed to build near"
     },
     claim56: {
         username: "Linaxox",
@@ -398,6 +398,12 @@ let userData = {
         Y: 1800,
         desc: "Don't mine or build"
     },
+    claim67: {
+        username: "LackKings",
+        X: 1797,
+        Y: -1517,
+        desc: "Don't mine or build"
+    },
   
 };
 
@@ -438,6 +444,12 @@ let userNetherData = {
         X: 410,
         Y: -377,
         desc: "Don't mine or build",
+    },
+    claim6: {
+        username: "JC_C/RadLikeSlime",
+        X: 43,
+        Y: -186,
+        desc: "Allowed to build near",
     },
 }
 
