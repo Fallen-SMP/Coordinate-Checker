@@ -404,6 +404,24 @@ let userData = {
         Y: -1517,
         desc: "Don't mine or build"
     },
+    claim68: {
+        username: "CaptainRoyaltyy",
+        X: -5313,
+        Y: 755,
+        desc: "450x450 Radius"
+    },
+    claim69: {
+        username: "Cr0tchKicker",
+        X: 133,
+        Y: 1228,
+        desc: "Allowed to build near"
+    },
+    claim70: {
+        username: "ermmie",
+        X: 2214,
+        Y: -1626,
+        desc: "Lackings only (prefers none)"
+    },
   
 };
 
