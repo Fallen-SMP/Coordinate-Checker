@@ -422,6 +422,48 @@ let userData = {
         Y: -1626,
         desc: "Lackings only (prefers none)"
     },
+    claim71: {
+        username: "CaptainRoyaltyy",
+        X: -5313,
+        Y: 755,
+        desc: "Don't mine or build"
+    },
+    claim72: {
+        username: "ArmageddonElite",
+        X: 1430,
+        Y: 99,
+        desc: "Allowed to build near"
+    },
+    claim73: {
+        username: "DigitalRabbit",
+        X: 3101,
+        Y: 5307,
+        desc: "Ask before building"
+    },
+    claim74: {
+        username: "heartsoflior",
+        X: 1874,
+        Y: -3225,
+        desc: "Ask before building"
+    },
+    claim75: {
+        username: "Captain_Carnar",
+        X: 302,
+        Y: -2819,
+        desc: "Ask before building"
+    },
+    claim76: {
+        username: "JellyArt",
+        X: -2734,
+        Y: -2990,
+        desc: "Don't mine or build"
+    },
+    claim77: {
+        username: "LizzyBear02",
+        X: -1097,
+        Y: 4586,
+        desc: "Ask before building"
+    },
   
 };
 
