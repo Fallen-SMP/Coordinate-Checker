@@ -464,6 +464,30 @@ let userData = {
         Y: 4586,
         desc: "Ask before building"
     },
+    claim78: {
+        username: "Rueben",
+        X: 697,
+        Y: 484,
+        desc: "Allowed to build near"
+    },
+    claim79: {
+        username: "CaramelStache",
+        X: 3393,
+        Y: -905,
+        desc: "Ask before building"
+    },
+    claim80: {
+        username: "tampon_",
+        X: -2763,
+        Y: 6470,
+        desc: "Ask before building"
+    },
+    claim81: {
+        username: "Ejosr/AustinMG29",
+        X: -688,
+        Y: 286,
+        desc: "Don't mine or build"
+    },
   
 };
 
