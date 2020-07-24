@@ -488,6 +488,48 @@ let userData = {
         Y: 286,
         desc: "Don't mine or build"
     },
+    claim82: {
+        username: "SirClucken/ShadowBlazinIce/Coldrix_",
+        X: 2465,
+        Y: -1915,
+        desc: "Don't mine or build"
+    },
+    claim83: {
+        username: "AustinMG29/Ejosr",
+        X: -800,
+        Y: 2194,
+        desc: "Don't mine or build"
+    },
+    claim84: {
+        username: "LSkilz",
+        X: 1142,
+        Y: -327,
+        desc: "Don't mine or build"
+    },
+    claim85: {
+        username: "Jestur",
+        X: 3960,
+        Y: -1020,
+        desc: "Ask before building"
+    },
+    claim: {
+        username: "Finvi",
+        X: -590,
+        Y: -832,
+        desc: "Don't mine or build"
+    },
+    claim: {
+        username: "birhdy/RadLikeSlime",
+        X: 3135,
+        Y: -2097,
+        desc: "Don't mine or build"
+    },
+    claim: {
+        username: "Rueben",
+        X: 1712,
+        Y: 3171,
+        desc: "Don't mine or build"
+    },
   
 };
 
