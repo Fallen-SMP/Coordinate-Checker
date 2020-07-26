@@ -446,12 +446,6 @@ let userData = {
         Y: -3225,
         desc: "Ask before building"
     },
-    claim75: {
-        username: "Captain_Carnar",
-        X: 302,
-        Y: -2819,
-        desc: "Ask before building"
-    },
     claim76: {
         username: "JellyArt",
         X: -2734,
@@ -530,6 +524,49 @@ let userData = {
         Y: 3171,
         desc: "Don't mine or build"
     },
+    claim89: {
+        username: "LonnonjamesD",
+        X: 3080,
+        Y: 2326,
+        desc: "Ask before building"
+    },
+    claim90: {
+        username: "dabidokun",
+        X: -1622,
+        Y: -3073,
+        desc: "Ask before building"
+    },
+    claim91: {
+        username: "Zenix",
+        X: 1742,
+        Y: -3451,
+        desc: "Don't mine or build"
+    },
+    claim92: {
+        username: "birhdy",
+        X: 2709,
+        Y: -5020,
+        desc: "Don't mine or build"
+    },
+    claim93: {
+        username: "LonnonjamesD",
+        X: 2258,
+        Y: 1769,
+        desc: "Don't mine or build"
+    },
+    claim94: {
+        username: "Jackpat02rules",
+        X: -2832,
+        Y: -628,
+        desc: "Ask before building"
+    },
+    claim95: {
+        username: "Captain_Carnar",
+        X: -3000,
+        Y: -4000,
+        desc: "Ask before building"
+    },
+ 
   
 };
 
