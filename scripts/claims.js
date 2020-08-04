@@ -566,6 +566,114 @@ let userData = {
         Y: -4000,
         desc: "Ask before building"
     },
+    claim96: {
+        username: "Smallbear_99",
+        X: 1240,
+        Y: 3079,
+        desc: "Don't mine or build"
+    },
+    claim97: {
+        username: "ArmaggeddonElite",
+        X: -30,
+        Y: -7191,
+        desc: "Don't mine or build"
+    },
+    claim98: {
+        username: "_Stam",
+        X: -272,
+        Y: 622,
+        desc: "Ask before building"
+    },
+    claim99: {
+        username: "NuggetsXVR",
+        X: 1253,
+        Y: 7348,
+        desc: "Ask before building"
+    },
+    claim100: {
+        username: "birhdy",
+        X: 4470,
+        Y: -1088,
+        desc: "Don't mine or build"
+    },
+    claim101: {
+        username: "SeenHell",
+        X: -395,
+        Y: -595,
+        desc: "Ask before building"
+    },
+    claim102: {
+        username: "CentrinoTM",
+        X: 644,
+        Y: 935,
+        desc: "Ask before building"
+    },
+    claim103: {
+        username: "CentrinoTM",
+        X: 711,
+        Y: 1032,
+        desc: "Don't mine or build"
+    },
+    claim104: {
+        username: "Kamizzel",
+        X: 4371,
+        Y: 8745,
+        desc: "Don't mine or build"
+    },
+    claim105: {
+        username: "Kamizzel/Yesnobody",
+        X: -14674,
+        Y: 4660,
+        desc: "Don't mine or build"
+    },
+    claim106: {
+        username: "SimplyXen",
+        X: -2663,
+        Y: 1876,
+        desc: "Don't mine or build"
+    },
+    claim107: {
+        username: "birhdy",
+        X: -9007,
+        Y: 6783,
+        desc: "Don't mine or build"
+    },
+    claim108: {
+        username: "_Zenix_",
+        X: 160,
+        Y: -995,
+        desc: "Don't mine or build"
+    },
+    claim109: {
+        username: "Renowns",
+        X: -11701,
+        Y: 13988,
+        desc: "Don't mine or build"
+    },
+    claim110: {
+        username: "heartsoflior",
+        X: -100000,
+        Y: 0,
+        desc: "Ask before building"
+    },
+    claim111: {
+        username: "__PQNDA__",
+        X: 2249,
+        Y: -118,
+        desc: "Ask before building"
+    },
+    claim112: {
+        username: "ArmaggeddonElite",
+        X: 95,
+        Y: -7291,
+        desc: "Don't mine or build"
+    },
+    claim113: {
+        username: "meltdown_mp4",
+        X: 9493,
+        Y: 2970,
+        desc: "Ask before building"
+    },
  
   
 };
@@ -613,6 +721,12 @@ let userNetherData = {
         X: 43,
         Y: -186,
         desc: "Allowed to build near",
+    },
+    claim7: {
+        username: "ijcerdas",
+        X: 1943,
+        Y: -301,
+        desc: "Don't mine or build"
     },
 }
 
