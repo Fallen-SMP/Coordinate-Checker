@@ -674,6 +674,49 @@ let userData = {
         Y: 2970,
         desc: "Ask before building"
     },
+    claim114: {
+        username: "Vixezio",
+        X: -1900,
+        Y: -1770,
+        desc: "Don't mine or build"
+    },
+    claim115: {
+        username: "animeshows (seenhell)",
+        X: -1154,
+        Y: -148,
+        desc: "Ask before building"
+    },
+    claim116: {
+        username: "_Stam",
+        X: 1900,
+        Y: -1200,
+        desc: "Don't mine or build"
+    },
+    claim117: {
+        username: "gekumi",
+        X: 1750,
+        Y: 2322,
+        desc: "Don't mine or build"
+    },
+    claim118: {
+        username: "_Stam/Bozl/Lskilz/ArmaggeddonElite",
+        X: -1126,
+        Y: -4549,
+        desc: "Don't mine or build"
+    },
+    claim119: {
+        username: "birhdy",
+        X: 2556,
+        Y: -3593,
+        desc: "Don't mine or build"
+    },
+    claim120: {
+        username: "Jadergamer53",
+        X: -770,
+        Y: 503,
+        desc: "Don't mine or build"
+    },
+  
  
   
 };
@@ -726,6 +769,12 @@ let userNetherData = {
         username: "ijcerdas",
         X: 1943,
         Y: -301,
+        desc: "Don't mine or build"
+    },
+    claim8: {
+        username: "Coldrix_/MasterCrossbow",
+        X: 599,
+        Y: 749,
         desc: "Don't mine or build"
     },
 }
