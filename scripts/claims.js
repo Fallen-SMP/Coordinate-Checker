@@ -716,9 +716,78 @@ let userData = {
         Y: 503,
         desc: "Don't mine or build"
     },
-  
- 
-  
+    claim121: {
+        username: "WetRat_",
+        X: -219,
+        Y: -175,
+        desc: "Don't mine or build"
+    },
+    claim122: {
+        username: "newcastleocean",
+        X: 886,
+        Y: 149,
+        desc: "Ask before building"
+    },
+    claim123: {
+        username: "UselessName15/Jadergamer53",
+        X: 4901,
+        Y: -5014,
+        desc: "Don't mine or build"
+    },
+    claim124: {
+        username: "Renowns",
+        X: -2170,
+        Y: 700,
+        desc: "Don't mine or build"
+    },
+    claim125: {
+        username: "UselessName15/Jadergamer53",
+        X: 1347,
+        Y: -7091,
+        desc: "Don't mine or build"
+    },
+    claim126: {
+        username: "birhdy",
+        X: -21624,
+        Y: 2224,
+        desc: "Don't mine or build"
+    },
+    claim127: {
+        username: "BuildmongerPlays",
+        X: 451,
+        Y: -462,
+        desc: "Ask before building"
+    },
+    claim128: {
+        username: "xLivy",
+        X: 3563,
+        Y: -9904,
+        desc: "Don't mine or build"
+    },
+    claim129: {
+        username: "SkeppysMuffin14",
+        X: -408,
+        Y: -1273,
+        desc: "Ask before building"
+    },
+    claim130: {
+        username: "MoreThanLonely",
+        X: -1032,
+        Y: 218,
+        desc: "Don't mine or build"
+    },
+    claim130: {
+        username: "Altura",
+        X: 2488,
+        Y: 2151,
+        desc: "Ask before building"
+    },
+    claim131: {
+        username: "Grenaderboy909/CentrinoTM",
+        X: -300,
+        Y: 4600,
+        desc: "Don't mine or build"
+    },
 };
 
 
@@ -778,7 +847,6 @@ let userNetherData = {
         desc: "Don't mine or build"
     },
 }
-
 
 
 for (user in userData) {
