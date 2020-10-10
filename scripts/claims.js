@@ -12,7 +12,7 @@ let userData = {
         username: "Kweenxkikii",
         X: -381,
         Z: 1194,
-        desc: "300x300 spawn claim"
+        desc: "Don't build near"
     },
     claim2: {
         username: "Popdey",
@@ -128,6 +128,60 @@ let userData = {
         Z: 437,
         desc: "Don't build near"
     },
+    claim: {
+        username: "bam1217",
+        X: 2465,
+        Z: 4614,
+        desc: "Don't build near"
+    },
+    claim: {
+        username: "SimplyXen",
+        X: -5439,
+        Z: 2228,
+        desc: "Ask before building"
+    },
+    claim: {
+        username: "ArmaggeddonElite",
+        X: 1903,
+        Z: -8985,
+        desc: "Don't build near"
+    },
+    claim: {
+        username: "Homie House",
+        X: 4921,
+        Z: 611,
+        desc: "Don't build near"
+    },
+    claim: {
+        username: "chrisxd_",
+        X: 4944,
+        Z: 514,
+        desc: "Don't build near"
+    },
+    claim: {
+        username: "_Stam",
+        X: -720,
+        Z: 1300,
+        desc: "Ask first"
+    },
+    claim: {
+        username: "UselessName15",
+        X: -7601,
+        Z: -3648,
+        desc: "Don't build near"
+    },
+    claim: {
+        username: "FlicZyy",
+        X: 730,
+        Z: 75,
+        desc: "Ask before building"
+    },
+    // claim: {
+    //     username: "",
+    //     X: ,
+    //     Z: ,
+    //     desc: ""
+    // },
     
 };
 
@@ -144,6 +198,12 @@ let userNetherData = {
         X: 375,
         Z: 75,
         desc: "Ask for permission"
+    }
+    claim2: {
+        username: "ArmaggeddonElite",
+        X: 289,
+        Z: -1091,
+        desc: "Don't build near"
     }
 }
 
