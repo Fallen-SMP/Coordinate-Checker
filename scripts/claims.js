@@ -6,6 +6,12 @@ let userData = {
         username: "Spawn",
         X: 0,
         Z: 0,
+        desc: "Don't build near"
+    },
+    claim1: {
+        username: "Kweenxkikii",
+        X: -381,
+        Z: 1194,
         desc: "300x300 spawn claim"
     }
 };
