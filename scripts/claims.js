@@ -101,13 +101,13 @@ let userNetherData = {
 
 
 for (user in userData) {
-    bases.push([userData[user].X, userData[user].Y, userData[user].username, userData[user].desc])
+    bases.push([userData[user].X, userData[user].Z, userData[user].username, userData[user].desc])
 }
 
 
 
 for (user in userNetherData) {
-    netherBases.push([userNetherData[user].X, userNetherData[user].Y, userNetherData[user].username, userNetherData[user].desc])
+    netherBases.push([userNetherData[user].X, userNetherData[user].Z, userNetherData[user].username, userNetherData[user].desc])
 }
 
 console.log(netherBases)
