@@ -106,8 +106,26 @@ let userData = {
     },
     claim17: {
         username: "chewibles",
-        X: 435,
-        Z: 1195,
+        X: 2227,
+        Z: -2839,
+        desc: "Don't build near"
+    },
+    claim18: {
+        username: "poptop7491",
+        X: 650,
+        Z: 87,
+        desc: "Don't build near"
+    },
+    claim19: {
+        username: "liorliorliorlior",
+        X: -930,
+        Z: 2949,
+        desc: "Don't build near"
+    },
+    claim20: {
+        username: "provokedspecky",
+        X: 64,
+        Z: 437,
         desc: "Don't build near"
     },
     
