@@ -198,7 +198,7 @@ let userNetherData = {
         X: 375,
         Z: 75,
         desc: "Ask for permission"
-    }
+    },
     claim2: {
         username: "ArmaggeddonElite",
         X: 289,
