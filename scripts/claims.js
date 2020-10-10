@@ -128,49 +128,49 @@ let userData = {
         Z: 437,
         desc: "Don't build near"
     },
-    claim: {
+    claim21: {
         username: "bam1217",
         X: 2465,
         Z: 4614,
         desc: "Don't build near"
     },
-    claim: {
+    claim22: {
         username: "SimplyXen",
         X: -5439,
         Z: 2228,
         desc: "Ask before building"
     },
-    claim: {
+    claim23: {
         username: "ArmaggeddonElite",
         X: 1903,
         Z: -8985,
         desc: "Don't build near"
     },
-    claim: {
+    claim24: {
         username: "Homie House",
         X: 4921,
         Z: 611,
         desc: "Don't build near"
     },
-    claim: {
+    claim25: {
         username: "chrisxd_",
         X: 4944,
         Z: 514,
         desc: "Don't build near"
     },
-    claim: {
+    claim26: {
         username: "_Stam",
         X: -720,
         Z: 1300,
         desc: "Ask first"
     },
-    claim: {
+    claim27: {
         username: "UselessName15",
         X: -7601,
         Z: -3648,
         desc: "Don't build near"
     },
-    claim: {
+    claim28: {
         username: "FlicZyy",
         X: 730,
         Z: 75,
