@@ -14,40 +14,76 @@ let userData = {
         Z: 1194,
         desc: "300x300 spawn claim"
     },
-    claim: {
+    claim2: {
         username: "Popdey",
         X: 967,
         Z: 331,
         desc: "Don't build near"
     },
-    claim: {
+    claim3: {
         username: "FakeFrede",
         X: 3600,
         Z: 1900,
         desc: "Don't build near"
     },
-    claim: {
+    claim4: {
         username: "Emorgancy",
         X: -2188,
         Z: -287,
         desc: "Don't build near"
     },
-    claim: {
+    claim5: {
         username: "Gamecrazybro/NewtStock/C4",
         X: 170,
         Z: -780,
         desc: "Don't build near"
     },
-    claim: {
+    claim6: {
         username: "DigitalRabbit",
         X: -2182,
         Z: -1003,
         desc: "Don't build near"
     },
-    claim: {
+    claim7: {
         username: "_Portal_",
         X: 463,
         Z: 187,
+        desc: "Don't build near"
+    },
+    claim8: {
+        username: "Fallen Kingdom",
+        X: 1662,
+        Z: -7748,
+        desc: "Don't build near"
+    },
+    claim9: {
+        username: "KweenxKikii",
+        X: 731,
+        Z: 4033,
+        desc: "Don't build near"
+    },
+    claim10: {
+        username: "ChronoCrafter1",
+        X: -1102,
+        Z: -1522,
+        desc: "Don't build near"
+    },
+    claim: {
+        username: "Carnar",
+        X: -1931,
+        Z: -490,
+        desc: "Don't build near"
+    },
+    claim: {
+        username: "Homie Base",
+        X: 4968,
+        Z: 42,
+        desc: "Don't build near"
+    },
+    claim: {
+        username: "Emorgancy/BreadCrumble/DigitalRabbit/Tampon_",
+        X: -1835,
+        Z: -1522,
         desc: "Don't build near"
     },
     
