@@ -68,19 +68,19 @@ let userData = {
         Z: -1522,
         desc: "Don't build near"
     },
-    claim: {
+    claim11: {
         username: "Carnar",
         X: -1931,
         Z: -490,
         desc: "Don't build near"
     },
-    claim: {
+    claim12: {
         username: "Homie Base",
         X: 4968,
         Z: 42,
         desc: "Don't build near"
     },
-    claim: {
+    claim13: {
         username: "Emorgancy/BreadCrumble/DigitalRabbit/Tampon_",
         X: -1835,
         Z: -1522,
