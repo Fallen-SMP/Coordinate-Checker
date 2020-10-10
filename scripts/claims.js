@@ -86,6 +86,30 @@ let userData = {
         Z: -1522,
         desc: "Don't build near"
     },
+    claim14: {
+        username: "Seizamaru",
+        X: -8544,
+        Z: 756,
+        desc: "Don't build near"
+    },
+    claim15: {
+        username: "JayChachi",
+        X: 565,
+        Z: -1105,
+        desc: "Don't build near"
+    },
+    claim16: {
+        username: "Ejosr",
+        X: -257,
+        Z: 4452,
+        desc: "Don't build near"
+    },
+    claim17: {
+        username: "chewibles",
+        X: 435,
+        Z: 1195,
+        desc: "Don't build near"
+    },
     
 };
 
@@ -96,6 +120,12 @@ let userNetherData = {
         X: 0,
         Z: 0,
         desc: "150x150 spawn claim"
+    },
+    claim1: {
+        username: "Koolforrest442/JC_C",
+        X: 375,
+        Z: 75,
+        desc: "Ask for permission"
     }
 }
 
