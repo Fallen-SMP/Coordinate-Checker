@@ -113,7 +113,7 @@ let userData = {
     claim18: {
         username: "poptop7491",
         X: 650,
-        Z: 87,
+        Z: 585,
         desc: "Don't build near"
     },
     claim19: {
