@@ -176,12 +176,78 @@ let userData = {
         Z: 75,
         desc: "Ask before building"
     },
-    // claim: {
-    //     username: "",
-    //     X: ,
-    //     Z: ,
-    //     desc: ""
-    // },
+    claim29: {
+        username: "Lucan_t/Fr0ggyFr0g",
+        X: 2125,
+        Z: 1713,
+        desc: "Don't build near"
+    },
+    claim30: {
+        username: "Grenaderboy909",
+        X: 3000,
+        Z: 3720,
+        desc: "Don't build near"
+    },
+    claim31: {
+        username: "Homie House",
+        X: -5185,
+        Z: 67,
+        desc: "Don't build near"
+    },
+    claim32: {
+        username: "Vixezio",
+        X: 1400,
+        Z: 550,
+        desc: "Ask before building"
+    },
+    claim33: {
+        username: "FakeFrede",
+        X: 3300,
+        Z: 1285,
+        desc: "Don't build near"
+    },
+    claim34: {
+        username: "Ejosr",
+        X: -1590,
+        Z: -1363,
+        desc: "Ask before building"
+    },
+    claim35: {
+        username: "MoreThanLonely",
+        X: -14,
+        Z: -2856,
+        desc: "Don't build near"
+    },
+    claim36: {
+        username: "Ghasties",
+        X: -1451,
+        Z: 1415,
+        desc: "Ask before building"
+    },
+    claim37: {
+        username: "GUMPYFROG",
+        X: -5441,
+        Z: -1519,
+        desc: "Don't build near"
+    },
+    claim38: {
+        username: "Miss_Ghostie",
+        X: -8000,
+        Z: 1000,
+        desc: "Ask before building"
+    },
+    claim39: {
+        username: "Grenaderboy909",
+        X: 2300,
+        Z: 2300,
+        desc: "Ask before building"
+    },
+    claim40: {
+        username: "_MrSweat",
+        X: -1415,
+        Z: -537,
+        desc: "Don't build near"
+    },
     
 };
 
