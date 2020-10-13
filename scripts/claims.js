@@ -248,6 +248,48 @@ let userData = {
         Z: -537,
         desc: "Don't build near"
     },
+    claim41: {
+        username: "X8va",
+        X: 694,
+        Z: 813,
+        desc: "Don't build near"
+    },
+    claim42: {
+        username: "Fhgui",
+        X: 5122,
+        Z: -6513,
+        desc: "Don't build near"
+    },
+    claim43: {
+        username: "Max__04",
+        X: 229,
+        Z: 1949,
+        desc: "Don't build near"
+    },
+    claim44: {
+        username: "GenerikDroidd/SumTingWong886/Cosmic_dG",
+        X: -19,
+        Z: 1678,
+        desc: "Don't build near"
+    },
+    claim45: {
+        username: "TobyRoses/PhyzyYT",
+        X: -2000,
+        Z: 260,
+        desc: "Don't build near"
+    },
+    claim46: {
+        username: "__PQNDA__",
+        X: -1139,
+        Z: -17,
+        desc: "Don't build near"
+    },
+    claim47: {
+        username: "JC_C",
+        X: 480,
+        Z: -430,
+        desc: "Ask before building"
+    },
     
 };
 
@@ -270,7 +312,13 @@ let userNetherData = {
         X: 289,
         Z: -1091,
         desc: "Don't build near"
-    }
+    },
+    claim3: {
+        username: "Birhdy",
+        X: 1320,
+        Z: -960,
+        desc: "Don't build near"
+    },
 }
 
 
