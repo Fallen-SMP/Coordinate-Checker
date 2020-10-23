@@ -386,6 +386,36 @@ let userData = {
         Z: 514,
         desc: "Don't build near"
     },
+    claim64: {
+        username: "mastercrossbow",
+        X: 3830,
+        Z: -665,
+        desc: "Don't build near"
+    },
+    claim65: {
+        username: "Glasi13",
+        X: -760,
+        Z: 5590,
+        desc: "Ask before building"
+    },
+    claim66: {
+        username: "A4B4",
+        X: -3006,
+        Z: -236,
+        desc: "Ask before building"
+    },
+    claim67: {
+        username: "DemonHSP/Toxic_Blood/Dreamz0103",
+        X: 4800,
+        Z: 3800,
+        desc: "Don't build near"
+    },
+    claim68: {
+        username: "JonnyPlayzGames",
+        X: 8621,
+        Z: 2440,
+        desc: "Allowed to build near"
+    },
     
 };
 
