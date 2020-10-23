@@ -332,6 +332,60 @@ let userData = {
         Z: 1000,
         desc: "Don't build near"
     },
+    claim55: {
+        username: "Jikook233",
+        X: 639,
+        Z: 2812,
+        desc: "Don't build near"
+    },
+    claim56: {
+        username: "Jikook",
+        X: 645,
+        Z: 2323,
+        desc: "Don't build near"
+    },
+    claim57: {
+        username: "A4B4",
+        X: -2240,
+        Z: 1400,
+        desc: "Ask before building"
+    },
+    claim58: {
+        username: "_Stam",
+        X: -1200,
+        Z: 600,
+        desc: "Ask before building"
+    },
+    claim59: {
+        username: "Shxre_",
+        X: -750,
+        Z: 450,
+        desc: "Don't build near"
+    },
+    claim60: {
+        username: "Grenaderboy909/Bam1217",
+        X: -4384,
+        Z: 2403,
+        desc: "Don't build near"
+    },
+    claim61: {
+        username: "LogicSurv",
+        X: 4875,
+        Z: -3409,
+        desc: "Don't build near"
+    },
+    claim62: {
+        username: "IssaRiles",
+        X: 753,
+        Z: -951,
+        desc: "Ask before building"
+    },
+    claim63: {
+        username: "PhyzyYT/MrApple",
+        X: -2336,
+        Z: 514,
+        desc: "Don't build near"
+    },
     
 };
 
