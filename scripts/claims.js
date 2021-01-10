@@ -128,6 +128,126 @@ let userData = {
         Z: 1250,
         desc: "Don't build near"
     },
+    claim21: {
+        username: "Portal",
+        X: 2498,
+        Z: 2537,
+        desc: "Allowed to build near"
+    },
+    claim22: {
+        username: "NeapolitanGoblin",
+        X: 1600,
+        Z: -200,
+        desc: "Don't build near"
+    },
+    claim23: {
+        username: "W6H",
+        X: 749,
+        Z: 2256,
+        desc: "Don't build near"
+    },
+    claim24: {
+        username: "_R4IN/SenpaiHydraulic/Carnar/wolife0113/lime2lemon/Seasock/UselessName15",
+        X: -4834,
+        Z: -1917,
+        desc: "Don't build near"
+    },
+    claim25: {
+        username: "Cheekynoodlez",
+        X: -1069,
+        Z: -3213,
+        desc: "Ask before building"
+    },
+    claim26: {
+        username: "DigitalRabbit",
+        X: 1545,
+        Z: 3818,
+        desc: "Don't build near"
+    },
+    claim27: {
+        username: "JC_C",
+        X: -863,
+        Z: -1474,
+        desc: "Don't build near"
+    },
+    claim28: {
+        username: "Carnar",
+        X: 704,
+        Z: 1281,
+        desc: "Ask before building"
+    },
+    claim29: {
+        username: "AmyUwU/Lynck",
+        X: -4940,
+        Z: 3680,
+        desc: "Ask before building"
+    },
+    claim30: {
+        username: "RoyalBionic/Brooksy8704",
+        X: 6261,
+        Z: -271,
+        desc: "Don't build near"
+    },
+    claim31: {
+        username: "RoyalBionic/Brooksy8704",
+        X: 7059,
+        Z: 584,
+        desc: "Don't build near"
+    },
+    claim32: {
+        username: "Lemonboy",
+        X: 600,
+        Z: 1100,
+        desc: "Ask before building"
+    },
+    claim33: {
+        username: "PhyzyYT",
+        X: 3160,
+        Z: 1080,
+        desc: "Ask before building"
+    },
+    claim34: {
+        username: "CheekyNoodlez",
+        X: -1757,
+        Z: -3558,
+        desc: "Don't build near"
+    },
+    claim35: {
+        username: "Kamizzel/Miss_Ghostie",
+        X: 527,
+        Z: -1021,
+        desc: "Don't build near"
+    },
+    claim36: {
+        username: "Kamizzel/Miss_Ghostie",
+        X: 580,
+        Z: -1220,
+        desc: "Ask before building"
+    },
+    claim37: {
+        username: "ItsWhitedonrocks",
+        X: 4912,
+        Z: 133,
+        desc: "Ask before building"
+    },
+    claim38: {
+        username: "Grafnt",
+        X: 1010,
+        Z: 1330,
+        desc: "Ask before building"
+    },
+    claim39: {
+        username: "__PQNDA__",
+        X: 978,
+        Z: -739,
+        desc: "Ask before building"
+    },
+    claim40: {
+        username: "PhyzyYT",
+        X: -1836,
+        Z: 1635,
+        desc: "Ask before building"
+    },
 };
 
 
