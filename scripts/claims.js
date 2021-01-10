@@ -122,7 +122,7 @@ let userData = {
         Z: -686,
         desc: "Ask before building"
     },
-    claim: {
+    claim20: {
         username: "Fhgui",
         X: -4270,
         Z: 1250,
