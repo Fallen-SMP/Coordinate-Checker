@@ -248,6 +248,30 @@ let userData = {
         Z: 1635,
         desc: "Ask before building"
     },
+    claim41: {
+        username: "PhyzyYT",
+        X: -4284,
+        Z: 1895,
+        desc: "Ask before building"
+    },
+    claim42: {
+        username: "PhyzyYT",
+        X: -6648,
+        Z: 2508,
+        desc: "Don't build near"
+    },
+    claim43: {
+        username: "Zeroes_YT",
+        X: 1215,
+        Z: 695,
+        desc: "Don't build near"
+    },
+    claim44: {
+        username: "TheWilburDog",
+        X: -1150,
+        Z: 1900,
+        desc: "Don't build near"
+    },
 };
 
 
