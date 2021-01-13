@@ -272,6 +272,90 @@ let userData = {
         Z: 1900,
         desc: "Don't build near"
     },
+    claim45: {
+        username: "Jackpat02rules",
+        X: -1890,
+        Z: 358,
+        desc: "Don't build near"
+    },
+    claim46: {
+        username: "miggs1011",
+        X: -3600,
+        Z: 4900,
+        desc: "Don't build near"
+    },
+    claim47: {
+        username: "AmyUwU/Lynck/Sharkuru",
+        X: -4956,
+        Z: 3805,
+        desc: "Ask before building"
+    },
+    claim48: {
+        username: "SpiredDwarf",
+        X: 2214,
+        Z: -2815,
+        desc: "Don't build near"
+    },
+    claim49: {
+        username: "Knapk1n",
+        X: -7500,
+        Z: -4800,
+        desc: "Don't build near"
+    },
+    claim50: {
+        username: "DavidAdams",
+        X: 123,
+        Z: -426,
+        desc: "Ask before building"
+    },
+    claim51: {
+        username: "Grafnt",
+        X: 1010,
+        Z: 1330,
+        desc: "Ask before building"
+    },
+    claim52: {
+        username: "FakeFrede",
+        X: 9369,
+        Z: 10019,
+        desc: "Don't build near"
+    },
+    claim53: {
+        username: "FakeFrede",
+        X: 9485,
+        Z: 10330,
+        desc: "Don't build near"
+    },
+    claim54: {
+        username: "FakeFrede",
+        X: 9590,
+        Z: 10180,
+        desc: "Don't build near"
+    },
+    claim55: {
+        username: "AmyUwU",
+        X: -1604,
+        Z: 2691,
+        desc: "Don't build near"
+    },
+    claim56: {
+        username: "02LizzyBear02",
+        X: 644,
+        Z: -627,
+        desc: "Ask before building"
+    },
+    claim57: {
+        username: "02LizzyBear02",
+        X: 661,
+        Z: -393,
+        desc: "Don't build near"
+    },
+    claim58: {
+        username: "A5tra_",
+        X: 1982,
+        Z: -180,
+        desc: "Don't build near"
+    },
 };
 
 
@@ -281,6 +365,18 @@ let userNetherData = {
         X: 0,
         Z: 0,
         desc: "150x150 spawn claim"
+    },
+    claim2: {
+        username: "SenpaiHydraulic",
+        X: -323,
+        Z: -40,
+        desc: "Don't build near"
+    },
+    claim3: {
+        username: "ItsWhitedonrocks/Alleee",
+        X: 512,
+        Z: 285,
+        desc: "Ask before building"
     },
 }
 
